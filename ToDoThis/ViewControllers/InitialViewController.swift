@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  InitialViewController.swift
 //  ToDoThis
 //
 //  Created by Udhay on 2020-05-16.
@@ -8,17 +8,12 @@
 
 import UIKit
 
-class SignInViewController: UIViewController {
+class InitialViewController: UIViewController {
 
-    @IBOutlet weak var EmailTextField: UITextField!
-    @IBOutlet weak var PasswordTextField: UITextField!
-    @IBOutlet weak var SignInButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
 
-    @IBAction func SignInTapped(_ sender: Any) {
+        // Do any additional setup after loading the view.
     }
     
 
@@ -33,4 +28,3 @@ class SignInViewController: UIViewController {
     */
 
 }
-
